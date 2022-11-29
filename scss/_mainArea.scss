@@ -1,6 +1,7 @@
 .mainArea {
     width: 100%;
     height: auto;
+    padding-top: 120px;
 
     //swiper
     .swiper {
@@ -94,7 +95,7 @@
                     color: $mainColor_1;
                     font-size: 0.95vw;
                     font-weight: bold;
-                    padding-top: 100%;
+                    padding-top: 75%;
                     animation: marquee 8s linear 0s infinite;
 
                     span {

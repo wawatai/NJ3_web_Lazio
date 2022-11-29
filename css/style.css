@@ -409,9 +409,12 @@ html body {
 }
 html body header {
   width: 100%;
+  min-width: 1000px;
   height: 120px;
   background: #fed600;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 100;
 }
 html body header .top {
@@ -856,6 +859,7 @@ html body header .left .innerBottom ul li .null {
 html body .mainArea {
   width: 100%;
   height: auto;
+  padding-top: 120px;
 }
 html body .mainArea .swiper {
   width: 100%;
@@ -948,7 +952,7 @@ html body .mainArea .swiper .marqueeBox .marquee p {
   color: #141414;
   font-size: 0.95vw;
   font-weight: bold;
-  padding-top: 100%;
+  padding-top: 75%;
   -webkit-animation: marquee 8s linear 0s infinite;
           animation: marquee 8s linear 0s infinite;
 }
