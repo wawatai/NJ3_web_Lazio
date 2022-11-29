@@ -952,9 +952,9 @@ html body .mainArea .swiper .marqueeBox .marquee p {
   color: #141414;
   font-size: 0.95vw;
   font-weight: bold;
-  padding-top: 75%;
-  -webkit-animation: marquee 8s linear 0s infinite;
-          animation: marquee 8s linear 0s infinite;
+  padding-bottom: 45%;
+  -webkit-animation: marquee 5s linear 0s infinite;
+          animation: marquee 5s linear 0s infinite;
 }
 html body .mainArea .swiper .marqueeBox .marquee p span {
   display: block;
