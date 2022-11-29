@@ -183,39 +183,10 @@
                         border-width: 8px 0 8px 12px;
                         border-color: transparent $mainBG_2;
                         margin-right: 5px;
-                        animation: arrowMove 2s linear 0s infinite;
 
                         &:nth-of-type(even) {
                             border-color: transparent $mainBG_1;
-                            animation: arrowMove_2 2s linear 0s infinite;
                         }
-                    }
-                }
-
-                @keyframes arrowMove {
-                    0% {
-                        border-color: transparent #141414;
-                    }
-
-                    50% {
-                        border-color: transparent #fed600;
-                    }
-
-                    100% {
-                        border-color: transparent #141414;
-                    }
-                }
-                @keyframes arrowMove_2 {
-                    0% {
-                        border-color: transparent #fed600;
-                    }
-
-                    50% {
-                        border-color: transparent #141414;
-                    }
-
-                    100% {
-                        border-color: transparent #fed600;
                     }
                 }
             }
@@ -506,40 +477,41 @@
                                     width: 0;
                                     height: 0;
                                     border-style: solid;
-                                    border-width: 1.8vw 0 1.8vw 3vw;
+                                    border-width: 1.2vw 0 1.2vw 2.5vw;
                                     border-color: transparent $mainColor_2;
                                     margin-left: 15%;
+                                    filter: drop-shadow(4px 4px 0 #141414);
                                 }
 
                                 @keyframes arrowJump {
                                     0% {
                                         transform: scale(1);
-                                        margin-left: 15%;
+                                        margin-left: 10%;
                                     }
 
                                     25% {
                                         transform: scale(0.3,1.2);
-                                        margin-left: 5%;
+                                        margin-left: 0%;
                                     }
 
                                     45% {
                                         transform: scale(1.4,0.5);
-                                        margin-left: 25%;
+                                        margin-left: 15%;
                                     }
 
                                     60% {
                                         transform: scale(0.5,1.5);
-                                        margin-left: 25%;
+                                        margin-left: 15%;
                                     }
 
                                     70% {
                                         transform: scale(1);
-                                        margin-left: 15%;
+                                        margin-left: 10%;
                                     }
 
                                     100% {
                                         transform: scale(1);
-                                        margin-left: 15%;
+                                        margin-left: 10%;
                                     }
                                 }
                             }
@@ -756,40 +728,41 @@
                                     width: 0;
                                     height: 0;
                                     border-style: solid;
-                                    border-width: 1.8vw 0 1.8vw 3vw;
+                                    border-width: 1.2vw 0 1.2vw 2.5vw;
                                     border-color: transparent $mainColor_2;
                                     margin-left: 15%;
+                                    filter: drop-shadow(4px 4px 0 #141414);
                                 }
 
                                 @keyframes arrowJump {
                                     0% {
                                         transform: scale(1);
-                                        margin-left: 15%;
+                                        margin-left: 10%;
                                     }
 
                                     25% {
                                         transform: scale(0.3,1.2);
-                                        margin-left: 5%;
+                                        margin-left: 0%;
                                     }
 
                                     45% {
                                         transform: scale(1.4,0.5);
-                                        margin-left: 25%;
+                                        margin-left: 15%;
                                     }
 
                                     60% {
                                         transform: scale(0.5,1.5);
-                                        margin-left: 25%;
+                                        margin-left: 15%;
                                     }
 
                                     70% {
                                         transform: scale(1);
-                                        margin-left: 15%;
+                                        margin-left: 10%;
                                     }
 
                                     100% {
                                         transform: scale(1);
-                                        margin-left: 15%;
+                                        margin-left: 10%;
                                     }
                                 }
                             }

@@ -155,6 +155,7 @@ header .forget_ic {
 
 .mainArea article .bottom {
   background: url("../images/mainArea_bottomBG.jpg") no-repeat top center;
+  background-size: cover;
 }
 
 .mainArea .gameLink.live {
@@ -1043,57 +1044,9 @@ html body .mainArea article .top .title .arrowBox i {
   border-width: 8px 0 8px 12px;
   border-color: transparent #141414;
   margin-right: 5px;
-  -webkit-animation: arrowMove 2s linear 0s infinite;
-          animation: arrowMove 2s linear 0s infinite;
 }
 html body .mainArea article .top .title .arrowBox i:nth-of-type(even) {
   border-color: transparent #fed600;
-  -webkit-animation: arrowMove_2 2s linear 0s infinite;
-          animation: arrowMove_2 2s linear 0s infinite;
-}
-@-webkit-keyframes arrowMove {
-  0% {
-    border-color: transparent #141414;
-  }
-  50% {
-    border-color: transparent #fed600;
-  }
-  100% {
-    border-color: transparent #141414;
-  }
-}
-@keyframes arrowMove {
-  0% {
-    border-color: transparent #141414;
-  }
-  50% {
-    border-color: transparent #fed600;
-  }
-  100% {
-    border-color: transparent #141414;
-  }
-}
-@-webkit-keyframes arrowMove_2 {
-  0% {
-    border-color: transparent #fed600;
-  }
-  50% {
-    border-color: transparent #141414;
-  }
-  100% {
-    border-color: transparent #fed600;
-  }
-}
-@keyframes arrowMove_2 {
-  0% {
-    border-color: transparent #fed600;
-  }
-  50% {
-    border-color: transparent #141414;
-  }
-  100% {
-    border-color: transparent #fed600;
-  }
 }
 html body .mainArea article .top .swiperBox {
   width: 80%;
@@ -1405,72 +1358,74 @@ html body .mainArea article .bottom .gameBox .left .gameLink .filter p span {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 1.8vw 0 1.8vw 3vw;
+  border-width: 1.2vw 0 1.2vw 2.5vw;
   border-color: transparent #ffffff;
   margin-left: 15%;
+  -webkit-filter: drop-shadow(4px 4px 0 #141414);
+          filter: drop-shadow(4px 4px 0 #141414);
 }
 @-webkit-keyframes arrowJump {
   0% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
   25% {
     -webkit-transform: scale(0.3, 1.2);
             transform: scale(0.3, 1.2);
-    margin-left: 5%;
+    margin-left: 0%;
   }
   45% {
     -webkit-transform: scale(1.4, 0.5);
             transform: scale(1.4, 0.5);
-    margin-left: 25%;
+    margin-left: 15%;
   }
   60% {
     -webkit-transform: scale(0.5, 1.5);
             transform: scale(0.5, 1.5);
-    margin-left: 25%;
+    margin-left: 15%;
   }
   70% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
 }
 @keyframes arrowJump {
   0% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
   25% {
     -webkit-transform: scale(0.3, 1.2);
             transform: scale(0.3, 1.2);
-    margin-left: 5%;
+    margin-left: 0%;
   }
   45% {
     -webkit-transform: scale(1.4, 0.5);
             transform: scale(1.4, 0.5);
-    margin-left: 25%;
+    margin-left: 15%;
   }
   60% {
     -webkit-transform: scale(0.5, 1.5);
             transform: scale(0.5, 1.5);
-    margin-left: 25%;
+    margin-left: 15%;
   }
   70% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
 }
 html body .mainArea article .bottom .gameBox .left .gameLink .filter i {
@@ -1689,40 +1644,42 @@ html body .mainArea article .bottom .gameBox .right .gameLink .filter p span {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 1.8vw 0 1.8vw 3vw;
+  border-width: 1.2vw 0 1.2vw 2.5vw;
   border-color: transparent #ffffff;
   margin-left: 15%;
+  -webkit-filter: drop-shadow(4px 4px 0 #141414);
+          filter: drop-shadow(4px 4px 0 #141414);
 }
 @keyframes arrowJump {
   0% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
   25% {
     -webkit-transform: scale(0.3, 1.2);
             transform: scale(0.3, 1.2);
-    margin-left: 5%;
+    margin-left: 0%;
   }
   45% {
     -webkit-transform: scale(1.4, 0.5);
             transform: scale(1.4, 0.5);
-    margin-left: 25%;
+    margin-left: 15%;
   }
   60% {
     -webkit-transform: scale(0.5, 1.5);
             transform: scale(0.5, 1.5);
-    margin-left: 25%;
+    margin-left: 15%;
   }
   70% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    margin-left: 15%;
+    margin-left: 10%;
   }
 }
 html body .mainArea article .bottom .gameBox .right .gameLink .filter i {
@@ -1882,8 +1839,8 @@ html body footer .left .topArea .listBox {
   position: relative;
 }
 html body footer .left .topArea .listBox:hover .null::before, html body footer .left .topArea .listBox:active .null::before, html body footer .left .topArea .listBox.active .null::before {
-  -webkit-animation: loop 20s linear 0s infinite alternate;
-          animation: loop 20s linear 0s infinite alternate;
+  -webkit-animation: loop 10s linear 0s infinite;
+          animation: loop 10s linear 0s infinite;
 }
 html body footer .left .topArea .listBox:nth-of-type(1), html body footer .left .topArea .listBox:nth-of-type(4) {
   width: 42.5%;
