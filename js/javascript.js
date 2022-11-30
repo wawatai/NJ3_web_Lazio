@@ -44,6 +44,15 @@ $(function(){
         $("header .rwd")
         .toggleClass("display");
     })
+
+    $(window).scroll(function() {
+        var scrollVal = $(this).scrollTop();
+
+        $("header")
+        .offset({
+            "top" : ""+ scrollVal +"",
+        })
+    })
 })
 
 //mainArea
